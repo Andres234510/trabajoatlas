@@ -14,4 +14,25 @@ header{
     background-image: url(../assest/images/banner-bk.jpg);
     box-shadow: 0 4px 25px -22px black;
     z-index: 2;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-header{
+    width: 6rem;
+    border: solid 1px rgb(0, 255, 149);
+    border-radius: 15px;
+    background-color: rgb(0, 255, 149);
+    color: black;
+    margin: 10px;
+    
+}
+
+header > h1{
+    margin: 10px;
+}
+
+.txt{
+    margin: 10px;
 }
