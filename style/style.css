@@ -122,6 +122,15 @@ main > h2 {
     text-align: center;
 }
 
+.business-log{
+    width: 100%;
+    background-color: rgb(140, 142, 145);
+    align-items: center;
+}
+
+.business-log > img{
+    margin: 40px;
+}
 
 footer{
     width: 100%;
