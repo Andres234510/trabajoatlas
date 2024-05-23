@@ -7,6 +7,8 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin: 0;
 }
 
 header{
@@ -96,18 +98,33 @@ main > h2 {
 }
 
 .trapecio {
-    width: 100vw;
-    height: 20rem;
-    background-color: rgb(0, 255, 149);
-    clip-path: polygon(0 51%, 100% 0%, 100% 100%, 0% 100%);
+    width: 100%;
+    /* height: 20rem; */
+    /* background-color: rgb(0, 255, 149);
+    clip-path: polygon(0 60%, 100% 0%, 110% 2000%, 0% 100%); */
     text-align: right;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-end;
+    background: linear-gradient(170deg, transparent 20rem, rgb(0, 255, 149) 0);
+
 }
+
+.trapecio > img{
+    width: 30rem;
+}
+
 .paragraph-trap{
     width: 40rem;
-    margin: 30px;
+    margin: 2rem;
     position: relative;
     justify-content: end;
+    align-items: flex-end;
     
+}
+
+.paragraph-trap > img{
+    width: 25rem;
 }
 
 .btn-trap{
